@@ -1,0 +1,383 @@
+
+header{
+    width:100%;
+    height:85px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: black;
+}
+.logo{
+    width:40%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 5px;
+    
+}
+
+.logo__img{
+    width:3vw;
+    height:4vw;
+    padding: 8px;
+    padding-left:25px;
+    padding-top:10px;
+}
+.logo__logoT{
+    
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size:2vw;
+    
+    
+}
+.header__nav{
+    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-left: 20vw;
+}
+.nav__item{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color:white;
+    margin: 17px;
+    list-style: none;
+    font-size: 1.5vw;
+    
+    
+    
+}
+.nav__item--blue{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color:rgba(139, 225, 224, 1);
+    margin: 17px;
+    list-style: none;
+    font-size: 1.5vw;
+    
+}
+.splashpage{
+    position: relative;
+    display: flex;
+    
+}
+.splashpage__banner{
+    width: 100%;
+    max-height: 100%;
+}
+.splashpage__tittle{
+    width: 40%;
+    max-height: 100px;
+    position: absolute;
+    top: 0.8vw;
+    left: 3vw;
+}
+.tittle__main{
+    font-size: 50px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size:3.5vw;
+}
+.tittle__sub{
+    color: white;
+    font-size: 2.6vw;
+    font-family: 'Bai Jamjuree', sans-serif;
+    
+}
+.action{
+    width: 100%;
+    height:5.5vw;
+    background-color: black;
+    display:flex;
+    align-content: center;
+    
+}
+
+.action__text{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+    font-size:2.4vw;
+    padding-top:1vw;
+    padding-left: 6vw; 
+    margin:0px;
+    
+}
+.action__button{
+    padding: 0.2vw;
+    background-color: rgba(139, 225, 224, 1);
+    border-radius: 20px;
+    height: 3vw;
+    width: 12vw;
+    border: solid;
+    border-color: white;
+    text-align: center;
+    color:black;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 1.2vw;
+    margin-left: 10vw;
+    font-size: 1.5vw;   
+}
+
+.ad{
+    width:100%;
+    height:20vw;
+    background-color: rgba(226, 51, 51, 1);
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.promo{
+    height:15vw;
+    width:60%
+    
+}
+
+.ad__square{
+    width: 100%;
+    height: 1vw;
+    margin-top:0.7vw;
+    background-color: rgb(245, 228, 70);
+    -webkit-box-shadow: 0px 10px 5px 1px rgba(107,34,34,0.43);
+    -moz-box-shadow: 0px 10px 5px 1px rgba(107,34,34,0.43);
+    box-shadow: 0px 10px 5px 1px rgba(107,34,34,0.43);
+}
+
+.promo__tittle{
+    max-width:100%;
+    color:white;
+    font-family: 'Baloo Bhai', cursive;
+    font-size:3.5vw;
+    padding-left: 5vw;
+    margin:0vw;
+    
+    
+}
+.promo__sub{
+    margin:0vw;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding-left: 5vw;
+    
+    
+}
+.promoImages__cover{
+    width:7vw;
+    height: 10vw;
+    margin-top:3vw;
+    border:solid;
+    border-color: white;
+    -webkit-box-shadow: 0px 10px 5px 1px rgba(107,34,34,0.43);
+    -moz-box-shadow: 0px 10px 5px 1px rgba(107,34,34,0.43);
+    box-shadow: 0px 10px 5px 1px rgba(107,34,34,0.43);
+}
+.promoCovers{
+    display:flex;
+    flex-direction: row;
+    
+}
+.promoImages{
+    margin-left:10vw;
+}
+
+.features{
+    background-color:rgba(63, 63, 63, 1);
+    border: solid;
+    border-width: 1.5vw;
+    border-color: rgb(53, 46, 46);
+    height: 45vw;
+    max-width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.feature{
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    width:33.33%;
+    padding:9vw;
+    padding-top: 15vw;
+}
+.feature__icon{
+    height: 13vw;
+    width: 13vw;
+    
+}
+.buffer{
+    background-color: black;
+    width: 100%;
+    height:50vw;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.buffer__img{
+    margin:5vw;
+    width:30vw;
+    height:40vw;
+    border:solid;
+    border-color:white;
+    border-width:1vw;
+}
+
+.buffer__tittle{
+    color:white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:2vw;
+    margin:10vw;
+    margin-left:12vw;
+    
+}
+.gallery{
+    background-color: rgba(226, 51, 51, 1);
+    max-width:100%;
+    height:35vw;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding:3vw;
+    
+}
+.gallery__gameplay{
+    width: 30vw;
+    height:17vw;
+    margin:5vw;
+    margin-right:0vw;
+    margin-top:7vw;
+    opacity: 0.9;
+    border:solid;
+    border-color: white;
+    
+}
+.gallery__tittle{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:white;
+    font-size:3vw;
+    
+}
+.arrowl{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width:7vw;
+    height:7vw;
+    margin-top:5vw;
+    margin-bottom:5vw;
+}
+.arrowr{
+    width:7vw;
+    height:7vw;
+    margin-top:5vw;
+    margin-bottom:5vw;
+}
+.images{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.details{
+    background-color: black;
+    max-height:75vw;
+    max-width: 100%;
+    display:flex;
+    flex-direction:column;
+    padding:3vw;
+}
+.b1{
+    display:flex;
+    flex-direction: row;
+    
+}
+.main{
+    margin-left:3vw;
+    max-width: 60%;
+}
+.main__tittle{
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    font-size:3vw;
+}
+.details__p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:white;
+    font-size:1.5vw;
+    list-style: none;
+}
+.b1__logo{
+    height: 10vw;
+    width: 7.5vw;
+    margin:1vw;
+}
+hr{
+    width: 100%;
+}
+.nl{
+    background-color:rgba(63, 63, 63, 1);
+    border: solid;
+    border-width: 1.5vw;
+    border-color: rgb(53, 46, 46);
+    height: 45vw;
+    max-width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.nl__mail{
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    font-size:2vw;
+    margin-bottom:0.2vw;
+    margin-top:2vw;
+}
+.nl__Mail{
+    font-family: 'Do Hyeon', sans-serif;
+    color:white;
+    font-size:3vw;
+    margin-top:0vw;
+}
+.nl__mail_p{
+    max-width:50%;
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:white;
+    font-size:2vw;
+    text-align: center;
+}
+.nl__input{
+    margin-top:3vw;
+    width:50%;
+    height:3vw;
+}
+.nl__send{
+    margin:3vw;
+    width:8vw;
+    height:7vw;
+}
+footer{
+    display:flex;
+    widows: 100%;
+    background-color:black;
+}
+.f-logo{
+    padding:2vw;
+    width:10%
+}
+.footer__logo{
+    
+    width:5vw;
+    height:6vw;
+    
+    
+}
+.f-text{
+    font-family: 'Bai Jamjuree', sans-serif;
+    color:white;
+    font-size:1vw;
+}
+
+
+
