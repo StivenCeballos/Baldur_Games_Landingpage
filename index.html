@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
@@ -31,12 +31,14 @@
     </header>
     <div class="splashpage">
         <img class="splashpage__banner" src="./src/img/banner.png" alt="background">
+        <img class="splashpage__bannerB" src="./src/img/banner-mobile.png" alt="banner-mobile">
         <div class="splashpage__tittle">
             <h1 class="tittle__main"> ¡PRUEBA YA LA NUEVA STORE ORIENTADA AL SECTOR INDIE!</h1>
             <h4 class="tittle__sub">Apoya a los desarrolladores
                 independientes, juega como 
                 nunca antes y recibe recompensas...</h4>
             </div>
+            <button class="splashpage__buttonB">¡REGISTRATE AHORA!</button>
         </div>
         <div class="action">
             <h1 class="action__text">UNETE AHORA Y DISFRUTA DE NUESTRO CATÁLOGO</h1>
@@ -60,30 +62,52 @@
             
         </section>
         <section class="features">
+            <h2 class="features__tap">¡TAP!</h2>
             <div class="feature">
-                <img class="feature__icon" src="./src/img/icon2.png" alt="icon2">
+                <p class="feature__text1">Al comprar juegos en nuestra tienda apoyas a los desarrolladores del sector idependiente para que pueda seguir cumpliendo su sueño.</p>
+                <img class="feature__icon1" src="./src/img/icon2.png" alt="icon2">
             </div>
             
             <div class="feature">
-                <img class="feature__icon" src="./src/img/icon1.png" alt="icon1">
+                <p class="feature__text2">Juega y disfruta de tus juegos favoritos como nunca antes gracias a nuestro optimizador de recursos.
+                    </p>
+                <img class="feature__icon2" src="./src/img/icon1.png" alt="icon1">
             </div>
             <div class="feature">
-                <img class="feature__icon" src="./src/img/icon3.png" alt="icon3">
+                <p class="feature__text3">Recolecta puntos mientras juegas para recibir recompensas que pueden ir desde logros hasta juegos totalmente gratis.</p>
+                <img class="feature__icon3" src="./src/img/icon3.png" alt="icon3">
             </div>
             
         </section>
         <section class="buffer">
-            <img class="buffer__img"src="./src/img/buffer.png" alt="buffer1">
-            <h1 class="buffer__tittle">PRUEBA YA NUESTRO OPTIMIZADOR</h1>
+                
+            <img class="buffer__img0"src="./src/img/buffer0.jpg" alt="buffer0">
+            <img class="buffer__img1"src="./src/img/buffer1.jpg" alt="buffer1">
+            <div class="buffer__info">
+                <h1 class="buffer__tittle">PRUEBA YA NUESTRO OPTIMIZADOR</h1>
+            <input class="buffer__slider" type="range" value="0" min="0" max="100" autocomplete="off">
+            <div class="buffer__label"></div>
+            </div>
+            
         </section>
         <section class="gallery">
+            <div class="gallery__tape">
             <h2 class="gallery__tittle">Más de 500 juegos en nuestro catálogo y contando...</h2>
-            <div class="images">
-                <img class="arrowl" src="./src/img/arrow.png" alt="arrow">
+            <input class="arrowl" type="image" src="./src/img/arrow.png"  alt="arrow">
+            <div class="gallery__images">
+                
                 <img class="gallery__gameplay" src="./src/img/gameplay 1.jpg" alt="gameplay">
                 <img class="gallery__gameplay" src="./src/img/gameplay 2.jpg" alt="gameplay">
-                <img class="arrowr" src="./src/img/arrow.png" alt="arrow">
+                <img class="gallery__gameplay" src="./src/img/gameplay 3.jpg" alt="gameplay">
+                <img class="gallery__gameplay" src="./src/img/gameplay 4.png" alt="gameplay">
+                <img class="gallery__gameplay" src="./src/img/gameplay 5.jpg" alt="gameplay">
+                
+                      
+                
+                
             </div>
+            <input class="arrowr" type="image" src="./src/img/arrow.png" alt="arrow">
+        </div>
         </section>
         <section class="details">
             <br>
@@ -124,6 +148,7 @@
             <h4 class="nl__mail_p">Dejanos tu correo electrónico para mantenerte al tanto de todas nuestras actualizaciones</h4>
             <input class="nl__input" type="email" name="newsletter" id="newsletter">
             <img class="nl__send" src="./src/img/mail.png" alt="send-button">
+            <img class="nl__sent"src="./src/img/mailsent.png" alt="send-button">
         </section>
         <footer>
             <div class="f-logo">
@@ -136,6 +161,6 @@
             </div>
         </footer>
         
-        
+        <script src="./script.js"></script>
     </body>
     </html>
