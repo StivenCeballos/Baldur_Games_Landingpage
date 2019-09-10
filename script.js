@@ -15,8 +15,6 @@ var feature3 = document.querySelector('.feature__text3');
 var mail = document.querySelector('.nl__send');
 
 
-
-
 function handleLast(){
 
   tape.classList.add('slider__tape--inactive');

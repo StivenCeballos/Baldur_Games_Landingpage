@@ -65,6 +65,21 @@ header{
     color: rgba(139, 225, 224, 1);
 
 }
+.nav__itemL{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color:white;
+    margin: 2vw;
+    list-style: none;
+    font-size: 1.5vw;
+    transition-duration: 1s; 
+}
+
+.nav__itemL:hover{
+    cursor: pointer;
+    color: rgba(139, 225, 224, 1);
+
+}
+
 
 .nav__item--blue{
     font-family: 'Saira Semi Condensed', sans-serif;
@@ -646,6 +661,38 @@ footer{
 }
 
 @media (max-width: 720px){
+    header{
+        display:flex;
+        height:8%;      
+        justify-content: space-between;
+    }
+    .logo{
+        max-width: 10%;
+        align-items: center;
+
+    }
+    .logo__logoT{
+        display:none;
+    }
+    .logo__img{
+        width:7.5vw;
+        height:10vw;
+       
+    }
+    .nav__item{
+    display:none;
+    }
+    .header__nav{
+        margin-right:5%;
+    }
+    
+    .nav__itemL{
+        
+        font-size:3vw;
+    }
+    .nav__item--blue{
+            font-size:3vw;
+    }
     .ad{
       height:50vw;
     }
