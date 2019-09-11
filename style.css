@@ -913,6 +913,30 @@ footer{
     transition-duration: 0.3s;
    
 }
+.nl__mail{
+   
+    font-size:3vw;
+  
+}
+.nl__Mail{
+   
+    font-size:4vw;
+   
+}
+.nl__mail_p{
+ 
+    font-size:2vw;
+   
+}
+.main__tittle{
+  
+    font-size:5vw;
+}
+.details__p{
+    
+    font-size:2.5vw;
+    
+}
 
 
    
